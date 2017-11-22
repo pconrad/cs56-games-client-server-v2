@@ -4,7 +4,7 @@ public class Hello {
 	
 	public static void main(String [] args) {
 
-		if (args < 1 || args[0].equals("EN")) {
+		if (args.length < 1 || args[0].equals("EN")) {
 			System.out.println("Hello, World!");
 			return;
 		}
